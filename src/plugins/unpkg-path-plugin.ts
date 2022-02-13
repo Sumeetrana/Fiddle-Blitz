@@ -17,7 +17,7 @@ export const unpkgPathPlugin = () => {
             loader: 'jsx',
             contents: `
               import message from 'tiny-test-pkg';
-              console.log(message);
+              console.log(message); 
             `,
           };
       });
